@@ -76,7 +76,7 @@ void request(int address,int write,int pn)
             if(page[phyblock->pNum].write==1)
             {
                 cout<<"将第"<<phyblock->pNum<<"页调出,存入辅存位置:"<<phy;
-                page[phyblock->pNum].write==0;
+                page[phyblock->pNum].write=0;
             }
             else
             {
@@ -133,10 +133,10 @@ int main()
             int write;
             do
             {
-                cout<<"请输入指令是否修改内存,修改请按1，不修改请按2"<<endl;
+                cout<<"请输入指令是否修改内存,修改请按1，不修改请按0"<<endl;
                 cin>>write;
             }
-            while(write!=1&&write!=2);
+            while(write!=1&&write!=0);
             int address;
             cout<<"请输入指令地址:"<<endl;
             cin>>address;

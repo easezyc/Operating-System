@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-const long size=50;
+const long size=50;    //定义剩余空间大小为多少就直接分配
 struct list
 {
     string name;
@@ -143,6 +143,7 @@ void recycling(string name)   //回收进程分区
     }
     else
     {
+
         temp=temp->next;
         while(temp!=NULL)
         {
@@ -213,17 +214,33 @@ void recycling(string name)   //回收进程分区
                         {
                             if(address<t->next->curaddress)
                             {
-                                t->length==t->length+length;
                                 if(t->curaddress+t->length==address)
                                 {
+                                    t->length=t->length+length;
                                     if(t->curaddress+t->length==t->next->curaddress)
                                     {
                                         list* tt=t->next;
                                         t->length+=tt->length;
                                         t->next=tt->next;
                                     }
-                                    break;
                                 }
+                                else
+                                {
+                                    if(address+length==t->next->curaddress)
+                                    {
+                                        t->next->length+=length;
+                                        t->next->curaddress=address;
+                                    }
+                                    else
+                                    {
+                                        list* tt=new list();
+                                        tt->curaddress=address;
+                                        tt->length=length;
+                                        tt->next=t->next;
+                                        t->next=tt;
+                                    }
+                                }
+                                break;
                             }
                         }
                     }
