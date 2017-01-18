@@ -1,0 +1,56 @@
+﻿生成启动时间为 2016/12/31 11:16:39。
+     1>项目“F:\作业\计算机操作系统\大实验\朱勇椿小组大实验报告\filesys\filesys\filesys.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt access.cpp ballfre.cpp close.cpp creat.cpp delete.cpp dir.cpp format.cpp halt.cpp iallfre.cpp igetput.cpp install.cpp log.cpp main.cpp name.cpp open.cpp rdwt.cpp shell.cpp userabout.cpp
+         userabout.cpp
+     1>f:\作业\计算机操作系统\大实验\朱勇椿小组大实验报告\filesys\filesys\userabout.cpp(28): warning C4101: “j”: 未引用的局部变量
+     1>f:\作业\计算机操作系统\大实验\朱勇椿小组大实验报告\filesys\filesys\userabout.cpp(43): warning C4101: “j”: 未引用的局部变量
+         shell.cpp
+     1>f:\作业\计算机操作系统\大实验\朱勇椿小组大实验报告\filesys\filesys\shell.cpp(124): warning C4018: “>”: 有符号/无符号不匹配
+         rdwt.cpp
+     1>f:\作业\计算机操作系统\大实验\朱勇椿小组大实验报告\filesys\filesys\rdwt.cpp(33): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\作业\计算机操作系统\大实验\朱勇椿小组大实验报告\filesys\filesys\rdwt.cpp(65): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\作业\计算机操作系统\大实验\朱勇椿小组大实验报告\filesys\filesys\rdwt.cpp(95): warning C4018: “<”: 有符号/无符号不匹配
+         open.cpp
+         name.cpp
+         main.cpp
+         log.cpp
+         install.cpp
+         igetput.cpp
+     1>f:\作业\计算机操作系统\大实验\朱勇椿小组大实验报告\filesys\filesys\igetput.cpp(17): warning C4101: “i”: 未引用的局部变量
+     1>f:\作业\计算机操作系统\大实验\朱勇椿小组大实验报告\filesys\filesys\igetput.cpp(91): warning C4018: “<=”: 有符号/无符号不匹配
+         iallfre.cpp
+         halt.cpp
+         format.cpp
+         dir.cpp
+         delete.cpp
+         creat.cpp
+         close.cpp
+         ballfre.cpp
+         access.cpp
+         正在生成代码...
+       Link:
+         E:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\作业\计算机操作系统\大实验\朱勇椿小组大实验报告\filesys\Debug\filesys.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\作业\计算机操作系统\大实验\朱勇椿小组大实验报告\filesys\Debug\filesys.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\作业\计算机操作系统\大实验\朱勇椿小组大实验报告\filesys\Debug\filesys.lib" /MACHINE:X86 Debug\access.obj
+         Debug\ballfre.obj
+         Debug\close.obj
+         Debug\creat.obj
+         Debug\delete.obj
+         Debug\dir.obj
+         Debug\format.obj
+         Debug\halt.obj
+         Debug\iallfre.obj
+         Debug\igetput.obj
+         Debug\install.obj
+         Debug\log.obj
+         Debug\main.obj
+         Debug\name.obj
+         Debug\open.obj
+         Debug\rdwt.obj
+         Debug\shell.obj
+         Debug\userabout.obj
+         filesys.vcxproj -> F:\作业\计算机操作系统\大实验\朱勇椿小组大实验报告\filesys\Debug\filesys.exe
+     1>已完成生成项目“F:\作业\计算机操作系统\大实验\朱勇椿小组大实验报告\filesys\filesys\filesys.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.07
